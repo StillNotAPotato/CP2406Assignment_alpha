@@ -135,8 +135,8 @@ public class RainfallAnalyser {
     }
 
     /**
-     * Get a list of available rainfall data sets to be analysed.
-     * Allows the user to pick which data set to analyse from this list.
+     * Get list of available rainfall data sets to be analysed.
+     * Allow user to pick which data set to analyse from this list.
      */
     private static String getFilename() {
         System.out.println("\nThe files available are:");

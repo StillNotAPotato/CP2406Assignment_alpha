@@ -8,6 +8,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 
@@ -25,7 +26,7 @@ public class RainfallVisualiser extends Application {
      * Draw picture.
      * Drawing area parameters (width and height in pixels) denote size
      */
-    public void drawPicture(GraphicsContext g, int width, int height) {
+    public void drawPicture(@NotNull GraphicsContext g, int width, int height) {
 
         // Create x and y-axis
         int border_width = 20;
