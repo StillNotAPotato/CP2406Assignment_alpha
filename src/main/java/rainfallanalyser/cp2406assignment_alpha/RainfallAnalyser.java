@@ -15,8 +15,7 @@ import org.apache.commons.csv.*;
  * and provide the analysed information in a format for a visualiser.
  * The project's rainfalldata directory is the only place
  * where this version can analyse files.
- *
- * See https: for project repository
+ * See https: https://github.com/StillNotAPotato/CP2406Assignment_alpha for project repository
  */
 public class RainfallAnalyser {
 
